@@ -20,14 +20,16 @@
     </header>
 
     <main>
-        <div class="thanks__content">
-            <div class="thanks__heading">
-                <h2 class="h2_logo">お問い合わせありがとうございました</h2>
+        <form class="form" action="/" method="get">
+            <div class="thanks__content">
+                <div class="thanks__heading">
+                    <h2 class="h2_logo">お問い合わせありがとうございました</h2>
+                </div>
             </div>
-        </div>
-        <div class="form__button">
-                    <button class="form__button-submit" type="submit">HOME</button>
-        </div>
+            <div class="form__button">
+                <button class="form__button-submit" type="submit">HOME</button>
+            </div>
+        </form>
     </main>
 </body>
 

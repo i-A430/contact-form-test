@@ -22,7 +22,7 @@
     <main>
         <div class="confirm__content">
             <div class="confirm__heading">
-                <h2>お問い合わせ内容確認</h2>
+                <h2 class="h_logo">お問い合わせ内容確認</h2>
             </div>
             <form action = "/contacts" method = "POST">
             @csrf

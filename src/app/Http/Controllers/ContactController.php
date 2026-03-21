@@ -50,4 +50,12 @@ class ContactController extends Controller
       Contact::create($contact);
       return view('thanks');
   }
+
+  public function thanks()
+    {
+    if ($request->has('reset')) {
+    return redirect('/')->withInput();
+    }
+    }
+
 }

@@ -15,6 +15,10 @@
     font-size: 24px;
 }
 
+.h_logo {
+    color: #aea195;
+}
+
 .confirm__content {
     margin: 0 auto;
     padding: 30px 15px;
@@ -43,13 +47,16 @@
     padding: 15px;
     width: 20%;
     border-bottom: 1px solid #ddd;
-    background-color: #eee;
+    background-color: #aea195;
     font-weight: bold;
+    color: #ffffff;
 }
 
 .confirm-table__text {
     padding: 15px;
     border-bottom: 1px solid #ddd;
+    background-color: #ffffff;
+    color: #aea195;
 }
 
 .confirm-table__text input {
@@ -74,7 +81,7 @@
     height: 50px;
     border: none;
     border-radius: 3px;
-    background: #000;
+    background: #82756a;
     color: #fff;
     cursor: pointer;
 }
